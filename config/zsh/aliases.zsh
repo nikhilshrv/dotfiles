@@ -16,3 +16,4 @@ alias proddb='pgcli -h slave-oc-prod-db.cr2y2pgvkoi7.us-east-1.rds.amazonaws.com
 alias nv='nvim'
 alias bp='yarn build && ggpush'
 alias localdb='pgcli -h localhost -p 5432 -U postgres -d votercircle'
+alias glog='git log --graph --pretty=format:'%h %Cred%an%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit'
